@@ -15,23 +15,53 @@ const ContentContainer = styled('div')(({theme}) => ({
     flexDirection:"row",
     justifyContent: "space-between",
     alignItems: "center",
-    gap:"50px"
+    gap:"50px",
+}));
+
+const Label = styled('Typography')(({theme}) => ({
+    fontWeight: 400,
+    fontSize: "28px",
+    display:"block",
+    [theme.breakpoints.down('lg')]: {
+        display: "none"
+    }
+}));
+
+const Logo = styled('img')(({theme}) => ({
+    width: "75px",
+    height: "auto",
+    [theme.breakpoints.down('sm')]: {
+        width: "50px",
+    }
+}));
+
+const Connector = styled('img')(({theme}) => ({
+    padding:"20px 30px 20px 0px",
+    [theme.breakpoints.down('sm')]: {
+        padding:"20px 15px 20px 0px",
+    }
+}));
+const EndConnector = styled('img')(({theme}) => ({
+    padding:"20px 37.5px 20px 0px",
+    [theme.breakpoints.down('sm')]: {
+        padding:"20px 23.5px 20px 0px",
+    }
 }));
 
 export default function TimeLineItem(props) {
     return (
         <Container>
             <ContentContainer>
-                <Typography style={{fontWeight: 400, fontSize: "28px"}}>
+                <Label>
                     {props.title}
-                </Typography>
-                <img src={props.icon} alt="Company Logo" width={props.iconWidth} height="auto"/>
+                </Label>
+                <Logo src={props.icon} alt="Company Logo"/>
             </ContentContainer>
             <div style={{display:"flex", justifyContent:"flex-end"}}>
                 {props.last ? 
-                <img src={EndLine} alt="Line" width="15px" height="60px" style={{padding:"20px 30px 20px 0px"}}></img>
+                <Connector src={EndLine} alt="Line" width="15px" height="60px"></Connector>
                 :
-                <img src={Line} alt="Line" width="2px" height="60px" style={{padding:"20px 37.5px 20px 0px"}}></img>
+                <EndConnector src={Line} alt="Line" width="2px" height="60px"></EndConnector>
                 }
             </div>
         </Container>

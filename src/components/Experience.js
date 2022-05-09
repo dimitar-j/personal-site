@@ -1,11 +1,8 @@
 import React from 'react'
 import { Typography } from '@mui/material';
 import { styled } from '@mui/system';
-import TimeLineItem from './TimeLineItem';
-import Ignite from "../assets/Ignite.png"
-import Relectric from "../assets/relectricWhite.png"
-import TFG from "../assets/TFG.png"
-import FF from "../assets/FF.png"
+import Timeline from './Timeline.js'
+import ExperienceCard from './ExperienceCard.js'
 
 
 const Container = styled('div')(({theme}) => ({
@@ -14,41 +11,24 @@ const Container = styled('div')(({theme}) => ({
     alignItems: "center",
     gap: "100px",
     color: "#fafafa",
-    marginTop:"75px"
-}));
-
-const TimeLine = styled('div')(({theme}) => ({
-    display: "flex",
-    flexDirection: "column"
-}));
-
-const Card = styled('div')(({theme}) => ({
-    backgroundColor: "#282828",
-    width: "400px",
-    height: "650px",
-    borderRadius: "20px"
+    marginTop:"75px",
+    marginBottom:"75px",
+    transition: "gap 0.2s",
+    [theme.breakpoints.down('lg')]: {
+        gap:"50px",
+    },
+    [theme.breakpoints.down('md')]: {
+        gap:"40px",
+    },
+    [theme.breakpoints.down('sm')]: {
+        gap:"30px",
+    },
+    [theme.breakpoints.down('xs')]: {
+        gap:"20px",
+    }
 }));
 
 export default function Experience() {
-
-    function renderTimeline() {
-        return (
-            <TimeLine>
-                <TimeLineItem title="Ignite" icon={Ignite} iconWidth="75px" last={false}></TimeLineItem>
-                <TimeLineItem title="Relectric" icon={Relectric} iconWidth="75px"last={false}></TimeLineItem>
-                <TimeLineItem title="Tech For Good Inc." icon={TFG} iconWidth="75px"last={false}></TimeLineItem>
-                <TimeLineItem title="FansFirst Tickets" icon={FF} iconWidth="75px" last={true}></TimeLineItem>
-            </TimeLine>            
-        )
-    }
-
-    function renderCard(){
-        return (
-            <Card>
-                
-            </Card>
-        )
-    }
 
     return (
         <div>
@@ -56,8 +36,8 @@ export default function Experience() {
                 Experience
             </Typography>
             <Container>
-                {renderTimeline()}
-                {renderCard()}
+                <Timeline></Timeline>
+                <ExperienceCard></ExperienceCard>
             </Container>
         </div>
     )
