@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 
 import { ThemeProvider } from '@emotion/react';
 import { createTheme} from '@mui/material/styles';
-import { Typography } from '@mui/material';
+import { CssBaseline, Typography } from '@mui/material';
 
 function App() {
 
@@ -16,6 +16,22 @@ function App() {
         'Nunito Sans',
         'sans-serif'
       ].join(','),
+      h1: {
+        fontWeight: 700,
+        fontSize: "42px"
+      },
+      h2: {
+        fontWeight: 700,
+        fontSize: "2em"
+      },
+      h3: {
+        fontWeight: 700,
+        fontSize: "2em"
+      },
+      body: {
+        fontSize:"22px",
+        fontWeight: "light"
+      }
     },
   });
 
