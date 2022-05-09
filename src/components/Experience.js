@@ -18,10 +18,12 @@ const Container = styled('div')(({theme}) => ({
         gap:"50px",
     },
     [theme.breakpoints.down('md')]: {
+        marginTop:"50px",
         gap:"40px",
     },
     [theme.breakpoints.down('sm')]: {
         gap:"30px",
+        marginTop:"25px",
     },
     [theme.breakpoints.down('xs')]: {
         gap:"20px",
