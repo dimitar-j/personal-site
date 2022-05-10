@@ -54,13 +54,14 @@ const EndConnector = styled('img')(({theme}) => ({
 }));
 
 export default function TimeLineItem(props) {
+
     return (
         <Container>
             <ContentContainer>
                 <Label>
                     {props.title}
                 </Label>
-                <Logo src={props.icon} alt="Company Logo"/>
+                <Logo src={props.icon} alt="Company Logo" onClick={() => props.select(props.title)}/>
             </ContentContainer>
             <div style={{display:"flex", justifyContent:"flex-end"}}>
                 {props.last ? 
