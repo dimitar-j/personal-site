@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 import { styled } from '@mui/system';
 import Timeline from './Timeline.js'
 import ExperienceCard from './ExperienceCard.js'
-
+import content from './experience_data.js'
 
 const Container = styled('div')(({theme}) => ({
     display: "flex",
@@ -24,6 +24,7 @@ const Container = styled('div')(({theme}) => ({
     [theme.breakpoints.down('sm')]: {
         gap:"30px",
         marginTop:"25px",
+        padding:"0 20px"
     },
     [theme.breakpoints.down('xs')]: {
         gap:"20px",
@@ -31,7 +32,6 @@ const Container = styled('div')(({theme}) => ({
 }));
 
 export default function Experience() {
-
     return (
         <div>
             <Typography variant="h1" style={{color:"#fafafa", marginLeft: "10%"}}>
@@ -39,7 +39,7 @@ export default function Experience() {
             </Typography>
             <Container>
                 <Timeline></Timeline>
-                <ExperienceCard></ExperienceCard>
+                <ExperienceCard data={content[3]}></ExperienceCard>
             </Container>
         </div>
     )

@@ -32,7 +32,12 @@ const Logo = styled('img')(({theme}) => ({
     height: "auto",
     [theme.breakpoints.down('sm')]: {
         width: "50px",
-    }
+    },
+    "&:hover": {
+        transform: "scale(1.2)",
+        cursor: "pointer"
+    },
+    transition: "all .1s ease-out",
 }));
 
 const Connector = styled('img')(({theme}) => ({

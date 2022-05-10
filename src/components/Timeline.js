@@ -14,7 +14,7 @@ const TimeLine = styled('div')(({theme}) => ({
 export default function Timeline() {
     return (
         <TimeLine>
-            <TimeLineItem title="Ignite" icon={Ignite} iconWidth="75px" last={false}></TimeLineItem>
+            <TimeLineItem title="Schulich Ignite" icon={Ignite} iconWidth="75px" last={false}></TimeLineItem>
             <TimeLineItem title="Relectric" icon={Relectric} iconWidth="75px"last={false}></TimeLineItem>
             <TimeLineItem title="Tech For Good Inc." icon={TFG} iconWidth="75px"last={false}></TimeLineItem>
             <TimeLineItem title="FansFirst Tickets" icon={FF} iconWidth="75px" last={true}></TimeLineItem>

@@ -33,7 +33,13 @@ const SocialIconsContainer = styled('div')({
     display: "flex",
     marginTop: "10px",
     marginBottom: "75px",
-    gap: "5px"
+    gap: "5px",
+    "& > a":{
+        "&:hover": {
+            transform: "scale(1.1)"
+        },
+        transition: "all .1s ease-out",
+    }
 });
 
 const ProfilePhoto = styled('img')({
