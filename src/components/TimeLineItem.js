@@ -34,9 +34,23 @@ const Logo = styled('img')(({theme}) => ({
         width: "50px",
     },
     "&:hover": {
-        transform: "scale(1.2)",
+        transform: "scale(1.3)",
         cursor: "pointer"
     },
+    transition: "all .1s ease-out",
+}));
+
+const ActiveLogo = styled('img')(({theme}) => ({
+    width: "75px",
+    height: "auto",
+    [theme.breakpoints.down('sm')]: {
+        width: "50px",
+    },
+    "&:hover": {
+        cursor: "pointer",
+        transform: "scale(1.3)",
+    },
+    transform: "scale(1.2)",
     transition: "all .1s ease-out",
 }));
 
@@ -61,7 +75,10 @@ export default function TimeLineItem(props) {
                 <Label>
                     {props.title}
                 </Label>
-                <Logo src={props.icon} alt="Company Logo" onClick={() => props.select(props.title)}/>
+                {(props.index === props.active ?
+                <ActiveLogo src={props.icon} alt="Company Logo" onClick={() => props.select(props.index)}/>
+                : <Logo src={props.icon} alt="Company Logo" onClick={() => props.select(props.index)}/>
+                )}
             </ContentContainer>
             <div style={{display:"flex", justifyContent:"flex-end"}}>
                 {props.last ? 

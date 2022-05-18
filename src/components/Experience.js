@@ -35,14 +35,8 @@ const Container = styled('div')(({theme}) => ({
 export default function Experience() {
     const [active, setActive] = useState(0);
 
-    function selectExperience(selected){
-        const map = {
-            "Schulich Ignite": 0,
-            "Relectric": 1,
-            "Tech For Good Inc.": 2,
-            "FansFirst Tickets": 3
-        }
-        setActive(map[selected])
+    function selectExperience(index){
+        setActive(index)
     }
 
     return (
@@ -51,7 +45,7 @@ export default function Experience() {
                 Experience
             </Typography>
             <Container>
-                <Timeline select={selectExperience}></Timeline>
+                <Timeline active={active} select={selectExperience}></Timeline>
                 <ExperienceCard data={content[active]}></ExperienceCard>
             </Container>
         </div>

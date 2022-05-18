@@ -14,10 +14,10 @@ const TimeLine = styled('div')(({theme}) => ({
 export default function Timeline(props) {
     return (
         <TimeLine>
-            <TimeLineItem title="Schulich Ignite" icon={Ignite} iconWidth="75px" last={false} select={props.select}></TimeLineItem>
-            <TimeLineItem title="Relectric" icon={Relectric} iconWidth="75px"last={false} select={props.select}></TimeLineItem>
-            <TimeLineItem title="Tech For Good Inc." icon={TFG} iconWidth="75px"last={false} select={props.select}></TimeLineItem>
-            <TimeLineItem title="FansFirst Tickets" icon={FF} iconWidth="75px" last={true} select={props.select}></TimeLineItem>
+            <TimeLineItem active={props.active} index={0} title="Schulich Ignite" icon={Ignite} iconWidth="75px" last={false} select={props.select}></TimeLineItem>
+            <TimeLineItem active={props.active} index={1} title="Relectric" icon={Relectric} iconWidth="75px"last={false} select={props.select}></TimeLineItem>
+            <TimeLineItem active={props.active} index={2} title="Tech For Good Inc." icon={TFG} iconWidth="75px"last={false} select={props.select}></TimeLineItem>
+            <TimeLineItem active={props.active} index={3} title="FansFirst Tickets" icon={FF} iconWidth="75px" last={true} select={props.select}></TimeLineItem>
         </TimeLine>  
     )
 }
