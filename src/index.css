@@ -13,7 +13,7 @@ code {
 
 .custom-shape-divider-bottom-1651714942 {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -40,3 +40,4 @@ code {
     height: 73px;
   }
 }
+

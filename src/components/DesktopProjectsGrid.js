@@ -11,7 +11,7 @@ export default function DesktopProjectsGrid() {
         justifyContent="space-between"
         alignItems="center"
         spacing={4}
-        style={{marginTop:"30px"}}
+        style={{marginTop:"30px" , padding:"0% 10% 0% 10%"}}
         >
             {content.map((project) => 
                 <DesktopProjectCard content={project}></DesktopProjectCard>

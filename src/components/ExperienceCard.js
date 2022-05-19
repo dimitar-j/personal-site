@@ -68,7 +68,7 @@ const FooterLogo = styled('img')(({theme}) => ({
 }));
 
 const Body = styled('Typography')(({theme}) => ({
-    fontSize: "clamp(0.9rem, 1vw + 0.5rem, 1.1rem)",
+    fontSize: "clamp(1.1rem, 1vw + 0.5rem, 1.1rem)",
     fontWeight: 300,
     paddingTop: "20px"
 }));

@@ -8,8 +8,8 @@ import MobileProjectsSlideshow from './MobileProjectsSlideshow.js';
 
 export default function Projects() {
     return (
-        <div style={{padding:"5% 10% 10% 10%"}}>
-            <Typography gutterBottom variant="h1" style={{color:"#fafafa"}}>
+        <div style={{marginBottom:"75px"}}>
+            <Typography gutterBottom variant="h1" style={{color:"#fafafa", padding:"0% 10%"}}>
                 Projects
             </Typography>
             <MediaQuery minWidth={1180}>

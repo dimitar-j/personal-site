@@ -6,8 +6,8 @@ import { Tune } from '@mui/icons-material';
 const Card = styled('div')(({theme}) => ({
     backgroundColor: "#282828",
     borderRadius:  "10px",
-    height: "350px",
-    padding: "10% 10% 5% 10%",
+    height: "fit-content",
+    padding: "50px 50px 25px 50px",
     display:"flex",
     flexDirection:"column",
     justifyContent: "space-between",
@@ -34,12 +34,12 @@ const TextContainer = styled('div')(({theme}) => ({
 }))
 
 const Title = styled('Typography')(({theme}) => ({
-    fontSize: "clamp(1.5rem, 1vw + 0.8rem, 1.8rem)",
+    fontSize: "clamp(1.7rem, 2vw + 0.8rem, 3rem)",
     fontWeight: 600,
 }))
 
 const Description = styled('Typography')(({theme}) => ({
-    fontSize: "clamp(0.9rem, 1vw + 0.6rem, 1.1rem)",
+    fontSize: "clamp(1.1rem, 1vw + 0.5rem, 1.5rem)",
     fontWeight: 300,
 }))
 
