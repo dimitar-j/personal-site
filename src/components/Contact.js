@@ -53,7 +53,7 @@ export default function Contact() {
                                     input: {
                                         color:"#fafafa",
                                         backgroundColor:"#282828",
-                                        borderRadius:"10px",
+                                        borderRadius:"15px",
                                         padding:"20px 25px",
                                         }
                                     }}/>
@@ -69,7 +69,7 @@ export default function Contact() {
                                         input: {
                                             color:"#fafafa",
                                             backgroundColor:"#282828",
-                                            borderRadius:"10px",
+                                            borderRadius:"15px",
                                             padding:"20px 25px",
                                             }
                                         }}/> 
@@ -83,11 +83,10 @@ export default function Contact() {
                                     InputProps={{ disableUnderline: true, style:{height:"300px", alignItems:"flex-start", paddingLeft:"25px", paddingRight:"25px"} }}
                                     sx={{
                                         backgroundColor:"#282828",
-                                        borderRadius:"10px",
+                                        borderRadius:"15px",
                                         input: {
                                             color:"#fafafa",
                                             backgroundColor:"#282828",
-                                            borderRadius:"10px"
                                         },
                                         textArea: {
                                             color:"#fafafa"
@@ -122,7 +121,7 @@ export default function Contact() {
                             },
                             width:"100%",
                             height:"50px",
-                            borderRadius:"10px",
+                            borderRadius:"15px",
                             marginTop:"20px"
                         }}
                         endIcon={<MailOutlineIcon></MailOutlineIcon>}

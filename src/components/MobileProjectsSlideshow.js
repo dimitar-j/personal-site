@@ -146,7 +146,19 @@ export default function MobileProjectsSlideshow() {
                 steps={maxSteps}
                 position="static"
                 activeStep={activeStep}
-                className={classes.stepper}
+                sx={{
+                    paddingTop:"20px",
+                    backgroundColor: "rgba(0,0,0,0)",
+                    justifyContent:"center",
+                    "& .MuiMobileStepper-dots":{
+                        "& .MuiMobileStepper-dot":{
+                            backgroundColor: "rgba(100, 100, 100, 0.7)"
+                        },
+                        "& .MuiMobileStepper-dotActive":{
+                            backgroundColor:"#fafafa"
+                        },
+                    }
+                }}
                 variant="dots"
                 nextButton={
                     renderNextButton
