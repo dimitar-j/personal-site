@@ -22,7 +22,11 @@ const useStyles = makeStyles((theme) => ({
     swiper: {
         height:"fit-content",
         "& > div": {
-            alignItems: "center"
+            alignItems: "center",
+            minHeight: "425px",
+            '@media (max-width:450px)': {
+                minHeight: "500px",
+            },
         }
     },
     stepper: {
@@ -42,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
         position: "absolute",
         display:"flex",
         justifyContent:"space-between",
-        top: "50%",
+        top: "47%",
         width:"100%",
         "transform": "translateY(-50%)",
         "-ms-transform": "translateY(-50%)",
