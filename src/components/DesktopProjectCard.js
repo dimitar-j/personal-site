@@ -6,7 +6,7 @@ import { Tune } from '@mui/icons-material';
 const Card = styled('div')(({theme}) => ({
     backgroundColor: "#282828",
     borderRadius:  "10px",
-    height: "425px",
+    height: "470px",
     padding: "10% 10% 5% 10%",
     display:"flex",
     flexDirection:"column",
