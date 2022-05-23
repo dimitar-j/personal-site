@@ -84,8 +84,7 @@ export default function ExperienceCard(props) {
                 </HeaderTextContainer>
                 <Logo src={props.data["logo"]}></Logo>
             </Header>   
-            <Body>
-                {props.data["description"]}
+            <Body dangerouslySetInnerHTML={{__html: props.data["description"]}}>
             </Body>
             <div style={{display:"flex", justifyContent:"center", marginTop:"20px"}}>
                 <FooterLogo src={props.data["logo"]}></FooterLogo>

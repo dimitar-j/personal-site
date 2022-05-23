@@ -50,8 +50,7 @@ export default function DesktopProjectCard(props) {
                     <Title>
                         {props.content["name"]}
                     </Title>
-                    <Description>
-                        {props.content["description"]}
+                    <Description dangerouslySetInnerHTML={{__html: props.content["description"]}}>
                     </Description>
                 </TextContainer>
                 <SocialContainer>

@@ -6,7 +6,7 @@ import { Tune } from '@mui/icons-material';
 const Card = styled('div')(({theme}) => ({
     backgroundColor: "#282828",
     borderRadius:  "10px",
-    height: "350px",
+    height: "425px",
     padding: "10% 10% 5% 10%",
     display:"flex",
     flexDirection:"column",
@@ -54,8 +54,7 @@ export default function DesktopProjectCard(props) {
                     <Title>
                         {props.content["name"]}
                     </Title>
-                    <Description>
-                        {props.content["description"]}
+                    <Description dangerouslySetInnerHTML={{__html: props.content["description"]}}>
                     </Description>
                 </TextContainer>
                 <SocialContainer>
