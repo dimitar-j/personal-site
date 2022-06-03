@@ -60,8 +60,8 @@ export default function Contact() {
     const [message, setMessage] = useState("")
     const [submitting, setSubmitting] = useState(false)
     const [success, setSuccess] = useState(false)
-    const [fail, setFail] = useState(true)
-    const [errorMessage, setErrorMessage] = useState("Email could not be sent. Please try again later, or email me directly at dimitar.j27@gmail.com.")
+    const [fail, setFail] = useState(false)
+    const [errorMessage, setErrorMessage] = useState("")
     
     const axios = require('axios').default;
 
