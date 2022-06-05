@@ -5,6 +5,7 @@ import TextField from '@mui/material/TextField';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { useState } from 'react';
 import MediaQuery from 'react-responsive'
+import { motion } from "framer-motion"
 
 import Character from '../assets/Saly-2.png'
 import CharacterV2 from '../assets/Saly-2-cropped.png'
@@ -275,6 +276,8 @@ export default function Contact() {
                 endIcon={<MailOutlineIcon></MailOutlineIcon>}
                 onClick={handleSubmit}
                 disabled={submitting}
+                component={motion.div}
+                whileTap={{scale:1.02}}
             >
                 Send Email
             </Button>

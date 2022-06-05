@@ -44,7 +44,7 @@ const SocialIconsContainer = styled('div')({
     }
 });
 
-const ProfilePhoto = styled('img')({
+const ProfilePhoto = styled('motion.img')({
     borderRadius: "50%",
     boxShadow: "0px 0px 105px rgba(0, 0, 0, 0.4)",
     margin: "15px 0px"
@@ -61,7 +61,15 @@ export default function Profile() {
             <Grid src={GridPhoto} sx={{top: "-320px", right: "-80px"}} width="35%"></Grid>
             <Grid src={GridPhoto} sx={{top: "300px", right: "-350px"}} width="35%"></Grid> */}
             <Container>
-                <ProfilePhoto src={Photo} alt="Profile Photo" width="225px" height="225px"></ProfilePhoto>
+                <ProfilePhoto 
+                    src={Photo}
+                    alt="Profile Photo"
+                    width="225px"
+                    height="225px"
+                    as={motion.img}
+                    whileTap={{rotate:2}}
+                    >
+                </ProfilePhoto>
                 <Typography variant="h2" sx={{margin: "10px 20px", textAlign: "center"}}>Hey there! My name is Dimitar 👋</Typography>
                 <SocialIconsContainer>
                     <a href="https://www.linkedin.com/in/dimitarjanevski/" target="_blank" rel="noreferrer">
