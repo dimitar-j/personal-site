@@ -15,7 +15,7 @@ import CancelIcon from '@mui/icons-material/Cancel';
 const Container = styled('div')(({theme}) => ({
     paddingLeft: "10%",
     paddingRight:"10%",
-    marginBottom:"35px",
+    marginBottom:"45px",
     position: "relative",
 }))
 
