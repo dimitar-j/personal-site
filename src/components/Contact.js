@@ -80,9 +80,7 @@ export default function Contact() {
     const renderSuccessDialog = () => {
         return (
             <SuccessContainer>
-                <MediaQuery minWidth={900}>
-                    <CheckCircleIcon></CheckCircleIcon>
-                </MediaQuery>
+                <CheckCircleIcon></CheckCircleIcon>
                 <Typography sx={{
                     fontSize:"14px",
                     fontWeight:"700",

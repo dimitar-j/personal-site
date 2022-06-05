@@ -11,6 +11,7 @@ import GridsTablet from '../assets/GridsTablet.png'
 import GridsMobile from '../assets/GridsMobile.png'
 import { Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { motion } from "framer-motion"
 
 const Container = styled('div')(({ theme }) => ({
     display: "flex",
@@ -24,6 +25,7 @@ const Container = styled('div')(({ theme }) => ({
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
+    marginBottom: "75px",
     [theme.breakpoints.down('md')]: {
         backgroundImage: `url(${GridsTablet})`,
     },
@@ -75,7 +77,12 @@ export default function Profile() {
                 <Typography variant="h5">
                     Let's go!
                 </Typography>
-                <ExpandMoreIcon color="black" sx={{fontSize: 40, marginBottom: "1%"}}></ExpandMoreIcon>
+                <motion.div
+                    animate={{y:[0,15,0,15, 0]}}
+                    transition={{repeat: Infinity, duration: 2, type:"spring"}}
+                >
+                    <ExpandMoreIcon color="black" sx={{fontSize: 40, marginBottom: "1%"}}></ExpandMoreIcon>
+                </motion.div>
             </Container>
             <div class="custom-shape-divider-bottom-1651714942">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
