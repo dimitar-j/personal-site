@@ -19,16 +19,6 @@ const content = [
         ]
     },
     {
-        name: "Weather Analyzer",
-        description: "Weather analyzer written in <b>Python</b> and using <b>NumPy</b> to analyze and visualize Calgary weather data over 20 years from a CSV file.",
-        links: [
-            {
-                url: "https://github.com/dimitar-j/Weather-Analyzer",
-                icon: Github
-            },
-        ]
-    },
-    {
         name: "MyChef",
         description: "Designed and developed a web-app connecting students with local home cooks in order to provide a <b>healthier alternative to current take-out and food delivery options</b>. Designed site with <b>Figma</b>, and implemented using <b>React</b> and a <b>Firebase</b> backend. Built in a group of 5 during a 24 hour hackathon with 500+ participants and received the <b>Most Innovative Idea Award</b>.",
         links: [
@@ -62,6 +52,16 @@ const content = [
         links: [
             {
                 url: "https://github.com/dimitar-j/ENSF409-Project",
+                icon: Github
+            },
+        ]
+    },
+    {
+        name: "Weather Analyzer",
+        description: "Weather analyzer written in <b>Python</b>. Utilizes <b>NumPy</b> to analyze Calgary weather data over 20 years from a CSV file. Visualizes data to provide user a visual summary of data anlysis using <b>Pyplot</b>.",
+        links: [
+            {
+                url: "https://github.com/dimitar-j/Weather-Analyzer",
                 icon: Github
             },
         ]
