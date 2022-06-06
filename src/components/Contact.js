@@ -36,7 +36,6 @@ const ImageContainer = styled('div')(({theme}) => ({
 
 const SuccessContainer = styled('div')(({theme}) => ({
     textAlign: "center",
-    marginTop:"10px",
     color:"rgb(0,170,83)",
     display:"flex",
     gap:"5px",
@@ -46,7 +45,6 @@ const SuccessContainer = styled('div')(({theme}) => ({
 
 const ErrorContainer = styled('div')(({theme}) => ({
     textAlign: "center",
-    marginTop:"10px",
     color:"#b00020",
     display:"flex",
     gap:"5px",
@@ -198,7 +196,10 @@ export default function Contact() {
                                 borderRadius:"15px",
                                 padding:"20px 25px",
                                 }
-                            }}/>
+                            }}
+                        as={motion.div}
+                        whileTap={{scale:1.05}}    
+                        />
                 </Grid>
                 <Grid item xs={12} md={6} sx={{
                     "&.MuiGrid-item":{
@@ -226,7 +227,10 @@ export default function Contact() {
                                     borderRadius:"15px",
                                     padding:"20px 25px",
                                     }
-                                }}/> 
+                                }}
+                            as={motion.div}
+                            whileTap={{scale:1.05}}
+                            /> 
                 </Grid>
                 <Grid item xs={12} sx={{
                     "&.MuiGrid-item":{
@@ -254,6 +258,8 @@ export default function Contact() {
                             }} 
                             multiline
                             rows={7}
+                            as={motion.div}
+                            whileTap={{scale:1.05}}
                             />
                 </Grid>
             </Grid>
@@ -271,16 +277,21 @@ export default function Contact() {
                     width:"100%",
                     height:"50px",
                     borderRadius:"15px",
-                    marginTop:"20px"
+                    marginTop:"20px",
+                    marginBottom: "10px"
                 }}
                 endIcon={<MailOutlineIcon></MailOutlineIcon>}
                 onClick={handleSubmit}
                 disabled={submitting}
                 component={motion.div}
-                whileTap={{scale:1.02}}
+                whileTap={{scaleX:1.05, scaleY:0.9}}
             >
                 Send Email
             </Button>
+            {(!success && !fail ? 
+                <div style={{marginTop:"60px"}}>
+
+                </div> : null)}
             {success && renderSuccessDialog()}
             {fail && renderErrorDialog()}
         </Container>

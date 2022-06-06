@@ -8,7 +8,7 @@ export default function DesktopProjectsGrid() {
     return (
         <Grid container
         direction="row"
-        justifyContent="space-between"
+        justifyContent="flex-start"
         alignItems="center"
         spacing={4}
         style={{marginTop:"30px" , padding:"0% 10% 0% 10%"}}
