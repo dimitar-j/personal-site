@@ -17,6 +17,9 @@ const Container = styled('div')(({theme}) => ({
     paddingRight:"10%",
     marginBottom:"45px",
     position: "relative",
+    ['@media (min-width:1180px)']: {
+        marginTop: "150px",
+    },
 }))
 
 const Subtitle = styled('Typography')(({theme}) => ({
