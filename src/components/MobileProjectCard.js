@@ -6,13 +6,24 @@ import { Tune } from '@mui/icons-material';
 const Card = styled('div')(({theme}) => ({
     backgroundColor: "#282828",
     borderRadius:  "10px",
-    height: "fit-content",
     padding: "50px 50px 25px 50px",
     display:"flex",
     flexDirection:"column",
     justifyContent: "space-between",
     color:"#fafafa",
     transition: "all .1s ease-out",
+    [theme.breakpoints.down("lg")]: {
+        height:"350px",
+    },
+    [theme.breakpoints.down("md")]: {
+        height:"350px",
+    },
+    [theme.breakpoints.down("sm")]: {
+        height:"450px",
+    },
+    '@media (max-width: 400px)': {
+        height:"600px"
+    }
 }))
 
 const SocialContainer = styled('div')(({theme}) => ({

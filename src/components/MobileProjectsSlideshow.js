@@ -23,13 +23,7 @@ const useStyles = makeStyles((theme) => ({
         height:"fit-content",
         "& > div": {
             alignItems: "center",
-            minHeight: "425px",
-            '@media (max-width:608px)': {
-                minHeight: "500px",
-            },
-            '@media (max-width:450px)': {
-                minHeight: "668px",
-            },
+           
             
         }
     },
