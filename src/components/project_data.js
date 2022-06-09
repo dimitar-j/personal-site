@@ -34,7 +34,7 @@ const content = [
     },
     {
         name: "DuoChef",
-        description: "Designed and developed a <b>gamified way to learn cooking</b> with curated recipes, daily streaks, and a social feed and leaderboard. Utilizes computer vision and machine learning to award points based on successful completion of recipe. Built with <b>Figma/React/Firebase</b> in 24 hours with a group of 4 as part of Hack Your Learning 2022. Received <b>1st place</b> amongst 60+ participants.",
+        description: "Designed and developed a <b>gamified way to learn cooking</b> with curated recipes, daily streaks, and a social feed and leaderboard. Utilizes computer vision and machine learning to award points based on successful completion of recipe. Built with <b>React/Firebase</b> in 24 hours with a group of 4 as part of Hack Your Learning 2022. Received <b>1st place</b> amongst 60+ participants.",
         links: [
             {
                 url: "https://github.com/dimitar-j/Hack-Your-Learning-2022",

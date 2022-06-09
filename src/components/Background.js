@@ -7,7 +7,7 @@ const Container = styled('div')(({ theme }) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    margin: "10%",
+    margin: "10% 10% 5% 10%",
     gap: "80px",
     [theme.breakpoints.down("md")]: {
         flexDirection: "column",
@@ -21,6 +21,11 @@ const TextContainer = styled('div')(({themse}) => ({
     gap: "40px",
 }));
 
+const Description = styled('Typography')(({theme}) => ({
+    fontSize: "clamp(1.20rem, 1vw + 0.65rem, 1.40rem)",
+    fontWeight: 300,
+}))
+
 export default function Background() {
     return (
         <section style={{position: "relative"}}>
@@ -29,9 +34,9 @@ export default function Background() {
                     <Typography variant="h1" style={{color:"#fafafa"}}>
                         Background
                     </Typography>
-                    <Typography variant="body" style={{color:"#fafafa"}}>
+                    <Description style={{color:"#fafafa"}}>
                         I was born and raised in a small country in Europe called Macedonia 🇲🇰 I moved to Calgary in 2009 and have been living here since then! I am going into my 3rd year of Software Engineering at the University of Calgary, and am currently working as a Full Stack Engineering Intern at a startup, FansFirst. In my free time I enjoy building projects and learning new things 👨‍💻 playing soccer ⚽  hiking ⛰️ and snowboarding 🏂
-                    </Typography>
+                    </Description>
                 </TextContainer>
                 <img src={Globe} width="100%"></img>
             </Container>
