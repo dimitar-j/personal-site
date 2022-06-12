@@ -34,7 +34,7 @@ const HeaderTextContainer = styled('div')(({theme}) => ({
 }));
 
 const Title = styled('Typography')(({theme}) => ({
-    fontSize: "clamp(1.5rem, 2vw + 1rem, 2rem)",
+    fontSize: "clamp(1rem, 2vw + 0.75rem, 2rem)",
     fontWeight: 700,
 }));
 
@@ -68,7 +68,7 @@ const FooterLogo = styled('img')(({theme}) => ({
 }));
 
 const Body = styled('Typography')(({theme}) => ({
-    fontSize: "clamp(1.1rem, 1vw + 0.5rem, 1.1rem)",
+    fontSize: "clamp(0.9rem, 1vw + 0.5rem, 1.1rem)",
     fontWeight: 300,
     paddingTop: "20px"
 }));
