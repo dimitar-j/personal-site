@@ -9,7 +9,7 @@ const content = [
         name: "Schulich Ignite",
         role: "VP Content Development",
         date: "September 2020 - May 2022",
-        description: "Heavily involved with Schulich Ignite, a University of Calgary club focucsed on <b>igniting a passion for programming</b> in high-school students. In addition to <b>mentoring 2-4 students</b> through 8-week sessions, held an executive position as the VP of Content Development. In this role, I <b>oversaw a 17-person team</b> including 5 commissioners and 4 sub-teams and coordinated the development of <b>Python</b> lecture content and exercises for <b>400+ high school students</b> as well as <b>tools and tech</b> used by <b>100+ club members</b>.",
+        description: "Executive member of a U of C club focused on <b>igniting a passion for programming</b> in high-school students. In addition to <b>mentoring 2-4 students</b> through 8-week sessions, held an executive position as the VP of Content Development. In this role, I <b>oversaw a 15-person team</b> including 5 commissioners and 4 sub-teams and coordinated the development of <b>Python</b> lecture content and exercises for <b>400+ high school students</b> as well as <b>tools and tech</b> used by <b>100+ club members</b>.",
         logo: Ignite
     },
     {
@@ -30,7 +30,7 @@ const content = [
         name: "FansFirst Tickets",
         role: "Full Stack Engineering Intern",
         date: "January 2022 - Present",
-        description: "Currently working as a Full Stack Engineer Intern at a Calgary-based <b>startup</b>, FansFirst. Heavily involved in all stages and parts of development, including implementing <b>responsive</b> Figma designs in <b>React</b>, building backend <b>API endpoints</b> via <b>serverless AWS Lambda</b> functions, maintaining and modifying <b>DynamoDB database</b> records, and utilizing <b>AWS Cloudformation</b> and <b>GitHub Actions</b> for <b>CI/CD</b>. Trained new hire on tech stack and efficiently delegated and prioritized new tasks between the two of us.",
+        description: "Currently working as a Full Stack Engineer Intern at a Calgary-based <b>startup</b>, FansFirst. Heavily involved in all stages and parts of development, including implementing <b>responsive</b> Figma designs in <b>React</b>, building backend <b>API endpoints</b> via <b>serverless AWS Lambda</b> functions, maintaining and modifying <b>DynamoDB database</b> records, and utilizing <b>AWS Cloudformation</b> and <b>GitHub Actions</b> for <b>CI/CD</b>.",
         logo: FF
     }
 ]
