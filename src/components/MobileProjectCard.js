@@ -50,7 +50,7 @@ const Title = styled('Typography')(({theme}) => ({
 }))
 
 const Description = styled('Typography')(({theme}) => ({
-    fontSize: "clamp(1.1rem, 1vw + 0.5rem, 1.5rem)",
+    fontSize: "clamp(1rem, 1vw + 0.5rem, 1.5rem)",
     fontWeight: 300,
 }))
 
