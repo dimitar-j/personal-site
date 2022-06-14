@@ -9,7 +9,7 @@ const content = [
         name: "Schulich Ignite",
         role: "VP Content Development",
         date: "September 2020 - May 2022",
-        description: "Executive member of a U of C club focused on <b>igniting a passion for programming</b> in high-school students. In addition to <b>mentoring 2-4 students</b> through 8-week sessions, I held an executive position as the VP of Content Development. In this role, I <b>oversaw a 15-person team</b> including 5 commissioners and 4 sub-teams and coordinated the development of <b>Python</b> lecture content and exercises for <b>400+ high school students</b> as well as <b>tools and tech</b> used by <b>100+ club members</b>.",
+        description: "Executive member of a U of C club focused on <b>igniting a passion for programming</b> in high school students. In addition to <b>mentoring 2-4 students</b> through 8-week sessions, I held an executive position as the VP of Content Development. In this role, I <b>oversaw a 15-person team</b> including 5 commissioners and 4 sub-teams and coordinated the development of <b>Python</b> lecture content and exercises for <b>400+ high school students</b> as well as <b>tools and tech</b> used by <b>100+ club members</b>.",
         logo: Ignite
     },
     {
