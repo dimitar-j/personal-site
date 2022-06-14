@@ -35,7 +35,7 @@ export default function Background() {
                         Background
                     </Typography>
                     <Description style={{color:"#fafafa"}}>
-                        I was born and raised in a small country in Europe called Macedonia 🇲🇰 I moved to Calgary in 2009 and have been living here since then! I am going into my 3rd year of Software Engineering at the University of Calgary, and am currently working as a Full Stack Engineering Intern at a startup, FansFirst. In my free time I enjoy building projects and learning new things 👨‍💻 playing soccer ⚽  hiking ⛰️ and snowboarding 🏂
+                        I was born and raised in a small country in Europe called Macedonia 🇲🇰 I moved to Calgary in 2009 and have been living here since then! I am going into my 3rd year of Software Engineering at the University of Calgary, and am currently working as a Full Stack Engineering Intern at a startup, FansFirst. In my free time, I enjoy building projects and learning new things 👨‍💻 playing soccer ⚽  hiking ⛰️ and snowboarding 🏂
                     </Description>
                 </TextContainer>
                 <img src={Globe} width="100%"></img>

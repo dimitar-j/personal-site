@@ -9,14 +9,14 @@ const content = [
         name: "Schulich Ignite",
         role: "VP Content Development",
         date: "September 2020 - May 2022",
-        description: "Executive member of a U of C club focused on <b>igniting a passion for programming</b> in high-school students. In addition to <b>mentoring 2-4 students</b> through 8-week sessions, held an executive position as the VP of Content Development. In this role, I <b>oversaw a 15-person team</b> including 5 commissioners and 4 sub-teams and coordinated the development of <b>Python</b> lecture content and exercises for <b>400+ high school students</b> as well as <b>tools and tech</b> used by <b>100+ club members</b>.",
+        description: "Executive member of a U of C club focused on <b>igniting a passion for programming</b> in high-school students. In addition to <b>mentoring 2-4 students</b> through 8-week sessions, I held an executive position as the VP of Content Development. In this role, I <b>oversaw a 15-person team</b> including 5 commissioners and 4 sub-teams and coordinated the development of <b>Python</b> lecture content and exercises for <b>400+ high school students</b> as well as <b>tools and tech</b> used by <b>100+ club members</b>.",
         logo: Ignite
     },
     {
         name: "Relectric",
         role: "Software Engineering Team Member",
         date: "October 2020 - January 2022",
-        description: "Part of the University of Calgary Relectric club, where we aim to make <b>electric vehicles</b> more <b>accessible</b> to the general population by <b>converting old vehicles into electric vehicles</b>. Specifically part of the software team where I worked on emulating <b>CANBUS</b> frames, parsing data using <b>Python</b> and transmitting it via <b>ZeroMQ</b>, testing <b>optimizations</b> using a <b>Raspberry Pi</b>, and implementing <b>Sphinx</b> documentation.",
+        description: "Part of the University of Calgary Relectric club, where we aim to make <b>electric vehicles</b> more <b>accessible</b> to the general population by <b>converting old vehicles into electric vehicles</b>. I was specifically part of the software team where I worked on emulating <b>CANBUS</b> frames, parsing data using <b>Python</b> and transmitting it via <b>ZeroMQ</b>, testing <b>optimizations</b> using a <b>Raspberry Pi</b>, and implementing <b>Sphinx</b> documentation.",
         logo: Relectric
     },
     {
