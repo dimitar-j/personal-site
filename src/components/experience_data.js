@@ -23,7 +23,7 @@ const content = [
         name: "Tech For Good Inc.",
         role: "Software Engineer Intern",
         date: "July 2021 - August 2022",
-        description: "Volunteered with the <b>non-profit</b> Tech For Good Inc. as a software engineer intern. Worked on <b>Mission UpLink</b>, a project that provides <b>cache-based internet access</b> to parts of <b>rural Africa</b>, with a focus on increasing access to <b>educational content</b>. Worked on a <b>Python</b> script for collecting device diagnostics and transmitting them to <b>AWS IoT Core</b> using <b>MQTT</b>. Also worked on containarizing Python module using <b>Docker</b>.",
+        description: "Volunteered with the <b>non-profit</b> Tech For Good Inc. as a software engineer intern. Worked on <b>Mission UpLink</b>, a project that provides <b>cache-based internet access</b> to parts of <b>rural Africa</b>, with a focus on increasing access to <b>educational content</b>. Worked on a <b>Python</b> script for collecting device diagnostics and transmitting them to <b>AWS IoT Core</b> using <b>MQTT</b>. Also worked on containerization Python module using <b>Docker</b>.",
         logo: TFG
     },
     {
