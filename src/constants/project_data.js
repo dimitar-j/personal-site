@@ -80,6 +80,16 @@ const content = [
             },
         ]
     },
+    {
+        name: "AI Tic-Tac-Toe",
+        description: "Built an AI written in <b>Python</b> which utilizes the Minimax algorithm to play TicTacToe intelligently against the user.",
+        links: [
+            {
+                url: "https://github.com/dimitar-j/ai-tictactoe",
+                icon: Github
+            },
+        ]
+    },
 ]
 
 export default content;

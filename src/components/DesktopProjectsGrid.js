@@ -1,6 +1,6 @@
 import React from 'react'
 import { Grid, Typography } from '@mui/material';
-import content from './project_data.js'
+import content from '../constants/project_data.js'
 import DesktopProjectCard from './DesktopProjectCard.js'
 import { styled } from '@mui/system';
 

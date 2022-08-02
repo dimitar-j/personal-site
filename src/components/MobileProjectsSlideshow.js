@@ -10,7 +10,7 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import MobileProjectCard from './MobileProjectCard.js'
-import content from './project_data.js'
+import content from '../constants/project_data.js'
 import { makeStyles } from '@mui/styles';
 import { IconButton } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';

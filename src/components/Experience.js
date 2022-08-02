@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 import { styled } from '@mui/system';
 import Timeline from './Timeline.js'
 import ExperienceCard from './ExperienceCard.js'
-import content from './experience_data.js'
+import content from '../constants/experience_data.js'
 
 const Container = styled('div')(({theme}) => ({
     display: "flex",
