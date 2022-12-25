@@ -40,10 +40,10 @@ export default function Background() {
             I am in my 3rd year of Software Engineering at the University of
             Calgary, and am currently working as a Full Stack Engineering Intern
             at a startup, FansFirst. I'll be in San Francisco for Summer 2023
-            interning with r2c on the Application Development team and I am
-            looking for Fall 2023 and Winter 2024 internships. In my free time,
-            I enjoy building projects and learning new things 👨‍💻 playing soccer
-            ⚽ snowboarding 🏂 and traveling ✈️
+            interning with r2c on the Application Development team 🌁 and I am
+            currently looking for Fall 2023 and Winter 2024 internships. In my
+            free time, I enjoy building projects and learning new things 👨‍💻
+            playing soccer ⚽ snowboarding 🏂 and traveling ✈️
           </Description>
         </TextContainer>
         <img src={Globe} width="100%"></img>
