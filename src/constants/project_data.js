@@ -7,7 +7,7 @@ const content = [
   {
     name: "RingRoad",
     description:
-      "Developed an <b>endless arcade mobile game</b>, RingRoad, for <i>iOS</i> and <i>Android</i> using <b>C#</b> and the <b>Unity Game Engine</b>. Designed 3D levels and game assets using <b>Blender</b>. Implemented daily rewards, Unity In-App Purchases, and Unity Ads. Currently available only on the Google Play Store.",
+      "Developed an <b>endless arcade mobile game</b>, RingRoad, for iOS and Android using <b>C#</b> and the <b>Unity Game Engine</b>. Designed 3D levels and game assets using <b>Blender</b>. Implemented daily rewards, Unity In-App Purchases, and Unity Ads. Currently available only on the Google Play Store.",
     links: [
       {
         url: "https://play.google.com/store/apps/details?id=com.DJGames.RingTheRoad",
@@ -55,7 +55,7 @@ const content = [
       "Designed personal site showcasing my background and experience using <b>Figma</b>. Implemented using <b>React</b> and <b>MaterialUI</b>, and built a serverless <b>AWS Lambda API</b> to allow users to contact me by sendeing me an email directly from the site.",
     links: [
       {
-        url: "https://www.google.com",
+        url: "https://dimitarjanevski.me/",
         icon: Website,
       },
       {
@@ -102,6 +102,36 @@ const content = [
       {
         url: "https://devpost.com/software/upskill-ue310a",
         icon: DevPost,
+      },
+    ],
+  },
+  {
+    name: "Sketch Royale",
+    description:
+      "Designed and developed a web-based <b>multiplayer</b> drawing game using <b>React</b>, <b>TypeScript</b>, <b>Tailwind</b> and a <b>Node.js</b> backend. Utilzied <b>WebSockets</b> for communication and live gameplay. Implemented an in-game chat feature and drawing board.",
+    links: [
+      {
+        url: "https://github.com/dimitar-j/SketchRoyale",
+        icon: Github,
+      },
+      {
+        url: "https://sketchroyale.netlify.app/",
+        icon: Website,
+      },
+    ],
+  },
+  {
+    name: "Meni",
+    description:
+      "<b>Simplifies menu creation</b> for restaurants by offering an intuitive platform to <b>design and edit digital menus</b>. Restaurants can generate a QR code to place on tables, allowing diners to quickly access their menu with photos and dietary tags, hence <b>enhancing the dining experience</b>. Built using <b>React</b> and <b>TypeScript</b>, and utilizes a <b>microservice</b> backend hosted on <b>GCP</b>.",
+    links: [
+      {
+        url: "https://admin.meniapp.ca/",
+        icon: Website,
+      },
+      {
+        url: "https://meniapp.ca/",
+        icon: Website,
       },
     ],
   },
