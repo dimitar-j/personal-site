@@ -129,10 +129,10 @@ const content = [
         url: "https://admin.meniapp.ca/",
         icon: Website,
       },
-      {
-        url: "https://meniapp.ca/",
-        icon: Website,
-      },
+      // {
+      //   url: "https://meniapp.ca/",
+      //   icon: Website,
+      // },
     ],
   },
 ];
