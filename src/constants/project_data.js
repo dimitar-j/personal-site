@@ -108,15 +108,11 @@ const content = [
   {
     name: "Sketch Royale",
     description:
-      "Designed and developed a web-based <b>multiplayer</b> drawing game using <b>React</b>, <b>TypeScript</b>, <b>Tailwind</b> and a <b>Node.js</b> backend. Utilzied <b>WebSockets</b> for communication and live gameplay. Implemented an in-game chat feature and drawing board.",
+      "Designed and developed a distributed web-based <b>multiplayer</b> drawing game using <b>React</b>, <b>TypeScript</b>, <b>Tailwind</b> and a <b>Node.js</b> backend. Utilzied <b>WebSockets</b> to implement a live in-game chat and drawing board. Implemented <b>fault tolerance</b> using passive replication of the backend servers with client-side failover.",
     links: [
       {
         url: "https://github.com/dimitar-j/SketchRoyale",
         icon: Github,
-      },
-      {
-        url: "https://sketchroyale.netlify.app/",
-        icon: Website,
       },
     ],
   },
