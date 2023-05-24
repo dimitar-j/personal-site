@@ -5,7 +5,7 @@ import Ignite from "../assets/Ignite.png";
 const Card = styled("div")(({ theme }) => ({
   backgroundColor: "#282828",
   position: "sticky",
-  top: "10%",
+  top: "25%",
   width: "360px",
   height: "fit-content",
   borderRadius: "20px",

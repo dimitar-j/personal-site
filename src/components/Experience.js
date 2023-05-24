@@ -9,7 +9,7 @@ import content from "../constants/experience_data.js";
 const Container = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
-  alignItems: "center",
+  alignItems: "top",
   gap: "100px",
   color: "#fafafa",
   marginTop: "75px",
