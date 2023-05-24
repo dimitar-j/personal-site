@@ -48,9 +48,9 @@ const ActiveLogo = styled("img")(({ theme }) => ({
   },
   "&:hover": {
     cursor: "pointer",
-    transform: "scale(1.2)",
+    transform: "scale(1.1)",
   },
-  transform: "scale(1.2)",
+  transform: "scale(1.1)",
   transition: "all .1s ease-out",
 }));
 
