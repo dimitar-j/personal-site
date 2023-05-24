@@ -5,7 +5,7 @@ import Ignite from "../assets/Ignite.png";
 const Card = styled("div")(({ theme }) => ({
   backgroundColor: "#282828",
   position: "sticky",
-  top: "25%",
+  top: "20%",
   width: "360px",
   height: "fit-content",
   borderRadius: "20px",
@@ -15,9 +15,11 @@ const Card = styled("div")(({ theme }) => ({
   padding: "40px 40px 20px 40px",
   [theme.breakpoints.down("sm")]: {
     width: "250px",
+    top: "15%",
   },
   [theme.breakpoints.down("xs")]: {
     width: "200px",
+    top: "10%",
   },
 }));
 
