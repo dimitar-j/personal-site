@@ -35,7 +35,7 @@ const content = [
     role: "Software Developer",
     date: "October 2022 - May 2023",
     description:
-      "Part of team AiRM and working on building an <b>AI robotic arm</b> using <b>reinforcement learnig</b>. Developed a <b>Python</b> module utilizing the Kortex API to control a Kinova Gen 3 robotic arm in the moving and sorting of objects using input from a reinforcement learning algorithm. Designed and deployed a <b>Flask</b> backend on <b>Google Cloud Run</b> to host a reinforcement learning model and return actions based on the current environment. Presented key technical specifications of the project to a panel of 50+ students and 5 industry judges.",
+      "Part of team AiRM and worked on building an <b>AI robotic arm</b> using <b>reinforcement learnig</b>. Developed a <b>Python</b> module utilizing the Kortex API to control a Kinova Gen 3 robotic arm in the moving and sorting of objects using input from a reinforcement learning algorithm. Designed and deployed a <b>Flask</b> backend on <b>Google Cloud Run</b> to host a reinforcement learning model and return actions based on the current environment. Presented key technical specifications of the project to a panel of 50+ students and 5 industry judges.",
     logo: TS,
   },
   {
@@ -43,7 +43,7 @@ const content = [
     role: "Lead Software Engineer",
     date: "January 2022 - Present",
     description:
-      "Leading the software development at a local <b>startup</b>, FansFirst Tickets, where I <b>manage a team of 3 developers</b> in the development of new features for <b>25k+ users</b>. Heavily involved in all stages and parts of development, including implementing <b>responsive</b> Figma designs with <b>React</b>, building our serverless backend using <b>AWS Lambda</b> functions written in <b>Python</b>, and utilizing <b>AWS Cloudformation</b> and <b>GitHub Actions</b> for <b>CI/CD</b>.",
+      "Led the software development at a local <b>startup</b>, FansFirst Tickets, where I <b>managed a team of 3 developers</b> in the development of new features for <b>25k+ users</b>. Heavily involved in all stages and parts of development, including implementing a user friendly <b>React</b> frontend, building our serverless backend using <b>AWS Lambda</b> functions written in <b>Python</b>, and utilizing <b>AWS Cloudformation</b> and <b>GitHub Actions</b> for <b>CI/CD</b>.",
     logo: FF,
   },
   {
