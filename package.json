@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "0.1.0",
-  "homepage": "https://dimitarjanevski.me",
+  "homepage": "https://dimitar-j.github.io/personal-site/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
