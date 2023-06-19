@@ -4,6 +4,7 @@ import TFG from "../assets/TFG.png";
 import FF from "../assets/FF.png";
 import TS from "../assets/TS.png";
 import Semgrep from "../assets/Semgrep.png";
+import Tesla from "../assets/Tesla.png";
 
 const content = [
   {
@@ -51,8 +52,16 @@ const content = [
     role: "Software Engineering Intern",
     date: "June 2023 - August 2023",
     description:
-      "Incoming Software Engineering Intern at Semgrep in San Francisco, sepcifically on the Application Development team, where I'll be working on security tools used by  Snowflake, GitLab, Slack, Dropbox and more.",
+      "Software Engineering Intern at Semgrep in San Francisco. Specifically on the Application Development Cloud Platform team, working on security tools used by Snowflake, GitLab, Slack, Dropbox and more. Currently working on an <b>in-app notifications</b> system to allow all services across the app to share notifications with users. Increased new project scans for existing users by <b>streamlining new project addition process</b> and unified the UI across the site by <b>standardizing the styling of key product pages</b>.",
     logo: Semgrep,
+  },
+  {
+    name: "Tesla",
+    role: "Software Engineering Intern",
+    date: "September 2023 - December 2023",
+    description:
+      "Incoming intern on the Material Flow team working on tools and applications to support thousands of mobile robots and vehicles in real time and across Tesla facilities, including the new Gigafactories in Austin and Berlin.",
+    logo: Tesla,
   },
 ];
 

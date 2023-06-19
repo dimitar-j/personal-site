@@ -1,6 +1,5 @@
 import React from "react";
 import { styled } from "@mui/system";
-import { Typography } from "@mui/material";
 import Line from "../assets/Line.png";
 import EndLine from "../assets/EndLine.png";
 

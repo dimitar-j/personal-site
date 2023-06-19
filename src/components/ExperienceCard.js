@@ -1,6 +1,5 @@
 import React from "react";
 import { styled } from "@mui/system";
-import Ignite from "../assets/Ignite.png";
 
 const Card = styled("div")(({ theme }) => ({
   backgroundColor: "#282828",

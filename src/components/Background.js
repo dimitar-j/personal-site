@@ -36,13 +36,13 @@ export default function Background() {
           </Typography>
           <Description style={{ color: "#fafafa" }}>
             I was born and raised in a small country in Europe called Macedonia
-            🇲🇰 I moved to Calgary in 2009 and just finished my 3rd year of
-            Software Engineering at the University of Calgary. I've been working
-            as the lead software engineer for the past year at a local startup,
-            FansFirst Tickets, and I'll be in San Francisco for Summer 2023
-            interning at Semgrep 🌁 In my free time, I enjoy building projects
-            and learning new things 👨‍💻 playing soccer ⚽ snowboarding 🏂 and
-            traveling ✈️
+            🇲🇰 I moved to Calgary in 2009 and have finished my 3rd year of
+            Software Engineering at the University of Calgary. I worked as the
+            lead software engineer for a year at a local startup, FansFirst
+            Tickets, and I'm currently in San Francisco for Summer interning at
+            Semgrep 🌁 and I'll be interning at Tesla in Fall ⚡️ In my free
+            time, I enjoy building projects and learning new things 👨‍💻 playing
+            soccer ⚽ snowboarding 🏂 and traveling ✈️
           </Description>
         </TextContainer>
         <img src={Globe} width="100%"></img>

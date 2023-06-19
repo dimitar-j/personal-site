@@ -1,7 +1,5 @@
 import React from "react";
 import { styled } from "@mui/system";
-import { Grid, Typography } from "@mui/material";
-import { Tune } from "@mui/icons-material";
 
 const Card = styled("div")(({ theme }) => ({
   backgroundColor: "#282828",
