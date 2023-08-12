@@ -1,6 +1,6 @@
 # My Personal Site 💻
 
-View here: https://dimitarjanevski.me/
+View here: https://dimitar.ca
 
 Built using:
 * Figma (design)
