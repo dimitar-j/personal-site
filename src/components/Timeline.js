@@ -8,6 +8,7 @@ import FF from "../assets/FF.png";
 import TS from "../assets/TS.png";
 import Semgrep from "../assets/Semgrep.png";
 import Tesla from "../assets/Tesla.png";
+import TikTok from "../assets/TikTok.png";
 
 const TimeLine = styled("div")(({ theme }) => ({
   display: "flex",
@@ -76,6 +77,15 @@ export default function Timeline(props) {
         index={6}
         title="Tesla"
         icon={Tesla}
+        iconWidth="75px"
+        last={false}
+        select={props.select}
+      ></TimeLineItem>
+      <TimeLineItem
+        active={props.active}
+        index={7}
+        title="TikTok"
+        icon={TikTok}
         iconWidth="75px"
         last={true}
         select={props.select}

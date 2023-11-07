@@ -10,10 +10,6 @@ const content = [
       "Developed an <b>endless arcade mobile game</b>, RingRoad, for iOS and Android using <b>C#</b> and the <b>Unity Game Engine</b>. Designed 3D levels and game assets using <b>Blender</b>. Implemented daily rewards, Unity In-App Purchases, and Unity Ads. Currently available only on the Google Play Store.",
     links: [
       {
-        url: "https://play.google.com/store/apps/details?id=com.DJGames.RingTheRoad",
-        icon: Website,
-      },
-      {
         url: "https://youtu.be/lH9U9Jh0O8g",
         icon: YouTube,
       },
@@ -122,7 +118,7 @@ const content = [
       "<b>Simplifies menu creation</b> for restaurants by offering an intuitive platform to <b>design and edit digital menus</b>. Restaurants can generate a QR code to place on tables, allowing diners to quickly access their menu with photos and dietary tags, hence <b>enhancing the dining experience</b>. Built using <b>React</b> and <b>TypeScript</b>, and utilizes a <b>microservice</b> backend hosted on <b>GCP</b>.",
     links: [
       {
-        url: "https://admin.meniapp.ca/",
+        url: "https://dashboard.meniapp.ca/",
         icon: Website,
       },
       // {
