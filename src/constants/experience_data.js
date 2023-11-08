@@ -67,7 +67,7 @@ const content = [
   {
     name: "TikTok",
     role: "Software Engineering Intern",
-    date: "February 2024 - May 2024",
+    date: "January 2024 - April 2024",
     description:
       "Incoming intern on the Trust and Safety team, working on protecting users from harmful content by building content moderation process systems, risk insight systems, rule engines, and more.",
     logo: TikTok,
