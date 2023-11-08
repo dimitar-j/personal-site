@@ -53,7 +53,7 @@ const content = [
     role: "Software Engineering Intern",
     date: "June 2023 - August 2023",
     description:
-      "Software Engineering Intern at Semgrep in San Francisco. Specifically on the Application Development Cloud Platform team, working on security tools used by Snowflake, GitLab, Slack, Dropbox, and more. Built an <b>in-app notifications</b> system to allow all services across the app to share notifications with users. Increased new project scans for existing users by <b>streamlining the new project addition process</b> and unified the UI across the site by <b>standardizing the styling of key product pages</b>.",
+      "Software Engineering Intern at Semgrep in San Francisco, building security tools used by Snowflake, GitLab, Slack, Dropbox, and more. Built an <b>in-app notifications</b> system to allow all services across the app to share notifications with users. Increased new project scans for existing users by <b>streamlining the new project addition process</b> and unified the UI across the site by <b>standardizing the styling of key product pages</b>.",
     logo: Semgrep,
   },
   {
@@ -61,7 +61,7 @@ const content = [
     role: "Software Engineering Intern",
     date: "September 2023 - December 2023",
     description:
-      "Working on tools and applications to support the design of new Gigafactories. Built a tool to <b>display critical layout flaws</b> and enable early-stage resolution, and <b>visualize the flow of material</b> across Gigafactories in order to detect congestion. <b>Implemented codegen</b> to automate frontend type generation and ensure <b>end-to-end type safety</b>. Spearheaded a <b>site-wide UI refactoring</b> to improve UX by improving the UI and consolidating 4 tools into a single page, eliminating loading when navigating between tools. ",
+      "Built a tool to <b>display critical Gigafactory layout flaws</b> to enable early-stage resolution, and <b>visualize the flow of material</b> across Gigafactories in order to detect congestion. <b>Implemented codegen</b> to automate frontend type generation and ensure <b>end-to-end type safety</b>. Spearheaded a <b>site-wide UI refactoring</b> by consolidating 4 tools into a single page, eliminating loading when navigating between tools.",
     logo: Tesla,
   },
   {

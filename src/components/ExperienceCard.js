@@ -14,11 +14,12 @@ const Card = styled("div")(({ theme }) => ({
   padding: "40px 40px 20px 40px",
   [theme.breakpoints.down("sm")]: {
     width: "250px",
-    top: "15%",
+    top: "10%",
+    padding: "40px 30px 20px 30px",
   },
   [theme.breakpoints.down("xs")]: {
     width: "200px",
-    top: "10%",
+    top: "8%",
   },
 }));
 
