@@ -43,7 +43,7 @@ const content = [
   {
     name: "FansFirst Tickets",
     role: "Lead Software Engineer",
-    date: "January 2022 - Present",
+    date: "January 2022 - June 2023",
     description:
       "Led the software development at a local <b>startup</b>, FansFirst Tickets, where I <b>managed a team of 3 developers</b> in the development of new features for <b>25k+ users</b>. Heavily involved in all stages and parts of development, including implementing a user friendly <b>React</b> frontend, building our serverless backend using <b>AWS Lambda</b> functions written in <b>Python</b>, and utilizing <b>AWS Cloudformation</b> and <b>GitHub Actions</b> for <b>CI/CD</b>.",
     logo: FF,
