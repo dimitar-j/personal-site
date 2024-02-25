@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.d134e31d.css",
-    "main.js": "/static/js/main.f0603164.js",
+    "main.js": "/static/js/main.dbd881e0.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/TS.png": "/static/media/TS.c83183cdd9ca5fc11b5d.png",
     "static/media/Saly-2-cropped.png": "/static/media/Saly-2-cropped.efbe12267b5ae487fa88.png",
     "static/media/globe.png": "/static/media/globe.a225cfb9a375df035c3d.png",
     "static/media/TikTok.png": "/static/media/TikTok.b025645da6eb683cffa1.png",
-    "static/media/DimitarJanevskiResume.pdf": "/static/media/DimitarJanevskiResume.c6a5497d4c320f993b5b.pdf",
+    "static/media/DimitarJanevskiResume.pdf": "/static/media/DimitarJanevskiResume.94bc71bc8e8a02af88aa.pdf",
     "static/media/ProfileIcon.jpeg": "/static/media/ProfileIcon.5c95e57edfe6492ec552.jpeg",
     "static/media/websiteWhite.png": "/static/media/websiteWhite.62665f4691d5d470c13d.png",
     "static/media/FF.png": "/static/media/FF.f45e3fbb1306512e46f5.png",
@@ -16,11 +16,11 @@
     "static/media/Semgrep.png": "/static/media/Semgrep.6e513d556bfe68825b96.png",
     "index.html": "/index.html",
     "main.d134e31d.css.map": "/static/css/main.d134e31d.css.map",
-    "main.f0603164.js.map": "/static/js/main.f0603164.js.map",
+    "main.dbd881e0.js.map": "/static/js/main.dbd881e0.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d134e31d.css",
-    "static/js/main.f0603164.js"
+    "static/js/main.dbd881e0.js"
   ]
 }

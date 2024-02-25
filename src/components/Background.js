@@ -39,11 +39,11 @@ export default function Background() {
             where I am now studying Software Engineering at the University of
             Calgary 🇨🇦 I began programming in Grade 9 when I taught myself game
             development with C# and Unity 👾 Since then, I have worked as the
-            lead software engineer at a local startup, FansFirst Tickets, and
-            interned at Semgrep in San Francisco 🌁 I'm currently interning at
-            Tesla, I'll be at TikTok for Winter, and I'm seeking a Summer 2024
-            internship! In my free time, I enjoy building projects and learning
-            new things 👨‍💻 playing soccer ⚽ snowboarding 🏂 and traveling ✈️
+            lead software engineer at a local startup with 25k+ users, FansFirst
+            Tickets, and have internship experience at TikTok, Tesla, and a
+            cybersecurity startup in San Francisco, Semgrep! In my free time, I
+            enjoy building projects and learning new things 👨‍💻 playing soccer ⚽
+            snowboarding 🏂 and traveling ✈️
           </Description>
         </TextContainer>
         <img src={Globe} width="100%"></img>

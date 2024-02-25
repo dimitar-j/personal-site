@@ -27,7 +27,7 @@ const content = [
   {
     name: "Tech For Good Inc.",
     role: "Software Engineer Intern",
-    date: "July 2021 - August 2022",
+    date: "July 2021 - August 2021",
     description:
       "Volunteered with the <b>non-profit</b> Tech For Good Inc. as a software engineering intern. Worked on <b>Mission UpLink</b>, a project that provides <b>cache-based internet access</b> to parts of <b>rural Africa</b>, with a focus on increasing access to <b>educational content</b>. Worked on a <b>Python</b> script for collecting device diagnostics and transmitting them to <b>AWS IoT Core</b> using <b>MQTT</b>. Also worked on containerization of Node.js server using <b>Docker</b>.",
     logo: TFG,
@@ -61,7 +61,7 @@ const content = [
     role: "Software Engineering Intern",
     date: "September 2023 - December 2023",
     description:
-      "Built a tool to <b>display critical Gigafactory layout flaws</b> to enable early-stage resolution, and <b>visualize the flow of material</b> across Gigafactories in order to detect congestion. <b>Implemented codegen</b> to automate frontend type generation and ensure <b>end-to-end type safety</b>. Spearheaded a <b>site-wide UI refactoring</b> by consolidating 4 tools into a single page, eliminating loading when navigating between tools.",
+      "Built a tool to <b>display critical Gigafactory layout flaws</b> to enable early-stage resolution, and <b>visualize the flow of material</b> across Gigafactories in order to detect congestion. <b>Implemented codegen</b> to automate frontend type generation and ensure <b>end-to-end type safety</b>. Spearheaded a <b>site-wide UI refactoring</b> by consolidating 5 tools into a single page, eliminating loading when navigating between tools.",
     logo: Tesla,
   },
   {
@@ -69,7 +69,7 @@ const content = [
     role: "Software Engineering Intern",
     date: "January 2024 - April 2024",
     description:
-      "Incoming intern on the Trust and Safety team, working on protecting users from harmful content by building content moderation process systems, risk insight systems, rule engines, and more.",
+      "Interning on the Trust and Safety team, working on protecting users from harmful content by building content moderation process systems, risk insight systems, rule engines, and more.",
     logo: TikTok,
   },
 ];
