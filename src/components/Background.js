@@ -35,7 +35,7 @@ export default function Background() {
             Background
           </Typography>
           <Description style={{ color: "#fafafa" }}>
-            I was born and raised in Maceodnia 🇲🇰 and moved to Calgary in 2009
+            I was born and raised in Macedonia 🇲🇰 and moved to Calgary in 2009
             where I am now studying Software Engineering at the University of
             Calgary 🇨🇦 I began programming in Grade 9 when I taught myself game
             development with C# and Unity 👾 Since then, I have worked as the
