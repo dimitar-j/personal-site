@@ -67,9 +67,9 @@ const content = [
   {
     name: "TikTok",
     role: "Software Engineering Intern",
-    date: "January 2024 - April 2024",
+    date: "January 2024 - July 2024",
     description:
-      "Interning on the Trust and Safety team, working on protecting users from harmful content by building content moderation process systems, risk insight systems, rule engines, and more.",
+      "Interning on the Trust and Safety team and working on backend systems using <b>Go</b>, <b>SQL</b>, <b>RPC</b>, and <b>event driven design</b> to protect TikTok users. Implemented Family Pairing in new TikTok Notes app, ensuring <b>minor safety</b> for <b>70k</b> users on app launch. Building a new platform ensuring safety of high profile accounts. <b>Expanded TikTok report functionality</b> by implementing 2 new Report Inbox statuses affecting <b>80k/day</b> related reports and adding support for reporting live typing GIF recommendations.",
     logo: TikTok,
   },
 ];

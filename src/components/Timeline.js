@@ -20,54 +20,9 @@ export default function Timeline(props) {
     <TimeLine>
       <TimeLineItem
         active={props.active}
-        index={0}
-        title="Schulich Ignite"
-        icon={Ignite}
-        iconWidth="75px"
-        last={false}
-        select={props.select}
-      ></TimeLineItem>
-      <TimeLineItem
-        active={props.active}
-        index={1}
-        title="Relectric"
-        icon={Relectric}
-        iconWidth="75px"
-        last={false}
-        select={props.select}
-      ></TimeLineItem>
-      <TimeLineItem
-        active={props.active}
-        index={2}
-        title="Tech For Good Inc."
-        icon={TFG}
-        iconWidth="75px"
-        last={false}
-        select={props.select}
-      ></TimeLineItem>
-      <TimeLineItem
-        active={props.active}
-        index={3}
-        title="Tech Start"
-        icon={TS}
-        iconWidth="75px"
-        last={false}
-        select={props.select}
-      ></TimeLineItem>
-      <TimeLineItem
-        active={props.active}
-        index={4}
-        title="FansFirst Tickets"
-        icon={FF}
-        iconWidth="50px"
-        last={false}
-        select={props.select}
-      ></TimeLineItem>
-      <TimeLineItem
-        active={props.active}
-        index={5}
-        title="Semgrep"
-        icon={Semgrep}
+        index={7}
+        title="TikTok"
+        icon={TikTok}
         iconWidth="75px"
         last={false}
         select={props.select}
@@ -83,9 +38,54 @@ export default function Timeline(props) {
       ></TimeLineItem>
       <TimeLineItem
         active={props.active}
-        index={7}
-        title="TikTok"
-        icon={TikTok}
+        index={5}
+        title="Semgrep"
+        icon={Semgrep}
+        iconWidth="75px"
+        last={false}
+        select={props.select}
+      ></TimeLineItem>
+      <TimeLineItem
+        active={props.active}
+        index={4}
+        title="FansFirst Tickets"
+        icon={FF}
+        iconWidth="50px"
+        last={false}
+        select={props.select}
+      ></TimeLineItem>
+      <TimeLineItem
+        active={props.active}
+        index={3}
+        title="Tech Start"
+        icon={TS}
+        iconWidth="75px"
+        last={false}
+        select={props.select}
+      ></TimeLineItem>
+      <TimeLineItem
+        active={props.active}
+        index={2}
+        title="Tech For Good Inc."
+        icon={TFG}
+        iconWidth="75px"
+        last={false}
+        select={props.select}
+      ></TimeLineItem>
+      <TimeLineItem
+        active={props.active}
+        index={1}
+        title="Relectric"
+        icon={Relectric}
+        iconWidth="75px"
+        last={false}
+        select={props.select}
+      ></TimeLineItem>
+      <TimeLineItem
+        active={props.active}
+        index={0}
+        title="Schulich Ignite"
+        icon={Ignite}
         iconWidth="75px"
         last={true}
         select={props.select}

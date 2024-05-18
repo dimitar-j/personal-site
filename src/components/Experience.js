@@ -33,7 +33,7 @@ const Container = styled("div")(({ theme }) => ({
 }));
 
 export default function Experience() {
-  const [active, setActive] = useState(content.length - 2);
+  const [active, setActive] = useState(content.length - 1);
 
   function selectExperience(index) {
     setActive(index);

@@ -86,14 +86,7 @@ export default function TimeLineItem(props) {
         )}
       </ContentContainer>
       <div style={{ display: "flex", justifyContent: "flex-end" }}>
-        {props.last ? (
-          <Connector
-            src={EndLine}
-            alt="Line"
-            width="15px"
-            height="60px"
-          ></Connector>
-        ) : (
+        {!props.last && (
           <EndConnector
             src={Line}
             alt="Line"
